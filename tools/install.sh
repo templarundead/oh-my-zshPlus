@@ -216,7 +216,7 @@ setup_shell() {
 	echo
 }
 
-scripts(){
+setup_scripts(){
  chmod +x $ZSH/scripts/*
 }
 
@@ -254,6 +254,7 @@ main() {
 	setup_ohmyzsh
 	setup_zshrc
 	setup_shell
+	setup_scripts
 
 	printf "$GREEN"
 	cat <<-'EOF'
