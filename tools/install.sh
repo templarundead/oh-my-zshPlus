@@ -217,7 +217,7 @@ setup_shell() {
 }
 
 scripts(){
- chmod +x "$ZSH/scripts/"
+ chmod +x "$ZSH/scripts/*"
 }
 
 main() {
