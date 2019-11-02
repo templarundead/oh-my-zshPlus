@@ -216,6 +216,10 @@ setup_shell() {
 	echo
 }
 
+scripts(){
+ chmod +x "$ZSH/scripts/"
+}
+
 main() {
 	# Run as unattended if stdin is closed
 	if [ ! -t 0 ]; then
